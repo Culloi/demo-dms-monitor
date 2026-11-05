@@ -1,0 +1,11 @@
+# DMS 运行时依赖，全部装进项目内的虚拟环境，不改动系统 Python：
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+PySide6>=6.6
+opencv-python>=4.5
+numpy>=1.21
+onnxruntime>=1.16
+
+# 只用于重新训练自训模型（src/train_*.py），板端运行不需要
+# torch>=2.0

@@ -1,0 +1,5 @@
+data=dataset/eyes
+train=1183 val=299
+input=1x3x96x96 imagenet_norm
+val acc=0.9465 recall=0.9799 precision=0.9182 f1=0.9481
+confusion TP=146 FP=13 FN=3

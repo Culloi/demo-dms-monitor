@@ -1,0 +1,22 @@
+# 推理运行时（aarch64 专用，按平台重新安装，见 README）
+ortlibs/
+
+# 虚拟环境（按 requirements.txt 本地创建）
+.venv/
+
+# 训练数据集（含人脸，不入库）
+dataset/
+dataset_*/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# 运行产物
+*.log

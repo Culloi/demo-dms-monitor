@@ -1,0 +1,5 @@
+data=dataset/smoke
+train=551 val=109
+input=1x3x128x128 imagenet_norm
+val acc=1.0000 recall=1.0000 precision=1.0000 f1=1.0000
+confusion TP=17 FP=0 FN=0
